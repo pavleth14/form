@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Forms and js</title>
+</head>
+<body>
+  <form action="results.html" method="get" target="_blank">
+    <div>
+        <label for="ime">Ime</label>
+        <input type="text" name="Ime" id="ime" placeholder="Upisi svoje ime...">
+    </div>
+
+    <div>
+        <label for="prezime">Prezme</label>
+        <input type="text" name="Prezima" id="prezime" placeholder="Upisi svoje prezime...">
+    </div>
+
+    
+    <div>
+        <label for="nadimak">Nadimak</label>
+        <input type="text" name="Nadimak" id="nadimak" placeholder="Upisi svoj nadimak...">
+    </div>
+
+    <div>
+        <label>Password
+        <input type="password" name="Password" placeholder="Upisi svoj password...">
+      </label>
+    </div><hr>
+
+    <div>
+      <p>Omiljena zivotinja:</p>
+      <div>
+          <label for="macka">Macka</label>
+          <input type="radio" name="Omiljena zivotinja" id="macka" value="Macka">
+      </div>
+      <div>
+          <label for="pas">Pas</label>
+          <input type="radio" name="Omiljena zivotinja" id="pas" value="Pas">
+      </div>
+      <div>
+          <label for="lav">Lav</label>
+          <input type="radio" name="Omiljena zivotinja" id="lav" value="Lav">
+      </div>
+    </div><hr>
+    <div>
+      <p>Mesta koja bi voleo da posetis:</p>
+      <div>
+          <label>Pariz
+              <input type="checkbox" name="Grad koji bi voleo da poseti" value="Pariz" placeholder="Upisi grad">
+            </label>
+      </div>
+
+      <div>
+          <label>London
+              <input type="checkbox" name="Grad koji bi voleo da poseti" value="London" placeholder="Upisi grad">
+            </label>
+      </div>
+
+      <div>
+          <label>Moskva
+              <input type="checkbox" name="Grad koji bi voleo da poseti" value="Moskva" placeholder="Upisi grad">
+            </label>
+      </div>
+      
+      <hr>
+    </div>
+    <button type="reset">Reset</button>
+    <button type="submit">Submit</button>
+    
+  </form>
+</body>
+</html>
